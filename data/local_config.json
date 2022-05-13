@@ -7,8 +7,8 @@
     "password": "",
     "database": ""
   },
-  "bxb_hostname": "",
-  "bot_config": {
+  "xxxxxx_hostname": "",
+  "xxxxxx_config": {
     "intents": {
         "first_stage": "Hi 👋! Before the bot starts working, you need to perform a small setting up for convenient use of the bot. What language do you prefer to communicate in?\n\n Привет 👋! Прежде чем бот начнет работать, вам необходимо выполнить небольшую настройку для удобного использования бота. На каком языке вы предпочитаете общаться?",
         "second_stage": {
@@ -22,8 +22,8 @@
             "restage_eng": "In order for the bot to start working, click the \"Subscribe\" button."
         },
         "bundle_error": {
-            "rus": "Данный telegram аккаунт уже привязан к аккаунту Bitexbook с id: ",
-            "eng": "This telegram account is already linked to a Bitexbook account with an id: ",
+            "rus": "Данный telegram аккаунт уже привязан к аккаунту XXXXXXXXX с id: ",
+            "eng": "This telegram account is already linked to a XXXXXXXXXX account with an id: ",
             "question_rus": "Хотите отписаться?",
             "question_eng": "Do you want to unsubscribe?"
         },
@@ -54,19 +54,19 @@
             "eng": "Do you want to receive notification of Taker-deals or leave only Maker-deals?"
         },
         "support_service": {
-            "rus": "Если у Вас возник вопрос, обратитесь в [службу поддержки клиентов](https://bitexbook.com/ru/about/contacts)",
-            "eng": "If you have a question, please contact [customer support](https://bitexbook.com/en/about/contacts)"
+            "rus": "Если у Вас возник вопрос, обратитесь в [службу поддержки клиентов](https://xxxxxxxx.com)",
+            "eng": "If you have a question, please contact [customer support](https://xxxxxxxx.com)"
         },
         "subscribe_phrase": {
             "rus": "Вы успешно подписались на рассылку!",
             "eng": "You have successfully subscribed to the newsletter!",
             "rus_err_sub": "Вы уже подписаны на рассылку.",
             "eng_err_sub": "You have already subscribed to the newsletter.",
-            "error_rus": "При выполнении операции возникла ошибка. Начните операцию подписки заново через [наш сайт](https://bitexbook.com/ru/account/notice)",
-            "error_eng": "An error occurred while performing the operation. Start the subscription operation again through [our site](https://bitexbook.com/en/account/notice)",
-            "existing_user_rus": "Данный BITEXBOOK аккаунт уже привязан к пользователю ",
+            "error_rus": "При выполнении операции возникла ошибка. Начните операцию подписки заново через [наш сайт](https://xxxxxxxx.com)",
+            "error_eng": "An error occurred while performing the operation. Start the subscription operation again through [our site](https://xxxxxxxx.com)",
+            "existing_user_rus": "Данный XXXXXXX аккаунт уже привязан к пользователю ",
             "existing_user_rus1": "Вы хотите обновить подписку на текущем telegram аккаунте?",
-            "existing_user_eng": "This BITEXBOOK account is already linked to the user ",
+            "existing_user_eng": "This XXXXXXXX account is already linked to the user ",
             "existing_user_eng1": "Do you want to renew your subscription on your current telegram account?"
         },
         "unsubscribe_phrase": {
@@ -74,17 +74,17 @@
             "eng": "You have successfully unsubscribed from the mailing list.",
             "rus_err_unsub": "Вы не были подписаны на рассылку.",
             "eng_err_unsub": "You were not subscribed to the newsletter.",
-            "reped_sub_rus": "Начните операцию подписки заново через [наш сайт](https://bitexbook.com/ru/account/notice)",
-            "reped_sub_eng": "Start the subscription operation again through [our site](https://bitexbook.com/en/account/notice)"
+            "reped_sub_rus": "Начните операцию подписки заново через [наш сайт](https://xxxxxxxx.com)",
+            "reped_sub_eng": "Start the subscription operation again through [our site](https://xxxxxxxx.com)"
         }
 
     },
     "failure_phrase": {
         "no_questions_asked": {
-            "rus": "Я не умею отвечать на вопросы. Если у Вас возник вопрос, обратитесь в [службу поддержки клиентов](https://bitexbook.com/ru/about/contacts)",
-            "eng": "I do not know how to answer questions. If you have any questions, please contact the [support serviсe clients](https://bitexbook.com/en/about/contacts) "
+            "rus": "Я не умею отвечать на вопросы. Если у Вас возник вопрос, обратитесь в [службу поддержки клиентов](https://xxxxxxxx.com)",
+            "eng": "I do not know how to answer questions. If you have any questions, please contact the [support serviсe clients](https://xxxxxxxx.com) "
         },
-        "incorrect_start": "You made an incorrect transition to the bot. In order for the bot to function correctly, make a transition through [our site](https://bitexbook.com/en/account/notice).\nВы совершили некорректный переход к боту. Чтобы бот мог корректно функционировать, совершите переход через [наш сайт](https://bitexbook.com/ru/account/notice).",
+        "incorrect_start": "You made an incorrect transition to the bot. In order for the bot to function correctly, make a transition through [our site](https://xxxxxxxx.com).\nВы совершили некорректный переход к боту. Чтобы бот мог корректно функционировать, совершите переход через [наш сайт](https://xxxxxxxx.com).",
         "upd_settings_err": {
             "rus_err": "При выполнении операции возникла ошибка. Повторите вашу операцию.",
             "eng_err": "An error occurred while performing the operation. Repeat your operation."

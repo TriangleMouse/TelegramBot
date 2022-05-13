@@ -1,0 +1,95 @@
+{
+  "api_token": "",
+  "connect_db":{
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": "",
+    "database": ""
+  },
+  "bxb_hostname": "",
+  "bot_config": {
+    "intents": {
+        "first_stage": "Hi 👋! Before the bot starts working, you need to perform a small setting up for convenient use of the bot. What language do you prefer to communicate in?\n\n Привет 👋! Прежде чем бот начнет работать, вам необходимо выполнить небольшую настройку для удобного использования бота. На каком языке вы предпочитаете общаться?",
+        "second_stage": {
+            "rus": "Отлично, хотите получать уведомление еще и по Taker-сделкам или оставить только Maker-сделки? ",
+            "eng": "Great, do you want to receive notifications for Taker deals as well, or leave only Maker deals?"
+        },
+        "finished_stage": {
+            "rus": "Превосходно! Настройка закончена. Чтобы бот начал работать, нажмите кнопку \"Подписаться\".",
+            "restage_rus": "Чтобы бот начал работать, нажмите кнопку \"Подписаться\".",
+            "eng": "Excellent! The setup is finished. For the bot start working, click the \"Subscribe\" button. ",
+            "restage_eng": "In order for the bot to start working, click the \"Subscribe\" button."
+        },
+        "bundle_error": {
+            "rus": "Данный telegram аккаунт уже привязан к аккаунту Bitexbook с id: ",
+            "eng": "This telegram account is already linked to a Bitexbook account with an id: ",
+            "question_rus": "Хотите отписаться?",
+            "question_eng": "Do you want to unsubscribe?"
+        },
+        "upd_lang_menu": {
+            "rus": "Операция успешно выполнена. Вы установили язык Русский",
+            "eng": "The operation was successfully completed. You have set the language to English"
+        },
+        "upd_maker_taker_menu": {
+            "rus": "Вы подписались на рассылку Taker-сделок.",
+            "eng": "You have subscribed to the Taker-deals newsletter.",
+            "rus_1": "Вы отписались от получения информации по Taker-сделкам. Теперь Вы будете получать информацию только по Maker-сделкам.",
+            "eng_1": "You have unsubscribed from receiving information on Taker transactions. Now you will receive information only on Maker deals."
+        },
+        "next_menu_settings": {
+            "rus": "Выполнен переход в меню \"Настройки\".",
+            "eng": "The transition to the \"Settings\" menu has been completed."
+        },
+        "back_menu_settings": {
+            "rus": "Выполнен переход назад в главное меню.",
+            "eng": "The transition to back to the main menu is completed."
+        },
+        "change_lang": {
+            "rus": "На каком языке вы предпочитаете общаться?",
+            "eng": "What language do you prefer to communicate in?"
+        },
+        "change_taker_switch": {
+            "rus": "Хотите получать уведомление по Taker-сделкам или оставить только Maker-сделки?",
+            "eng": "Do you want to receive notification of Taker-deals or leave only Maker-deals?"
+        },
+        "support_service": {
+            "rus": "Если у Вас возник вопрос, обратитесь в [службу поддержки клиентов](https://bitexbook.com/ru/about/contacts)",
+            "eng": "If you have a question, please contact [customer support](https://bitexbook.com/en/about/contacts)"
+        },
+        "subscribe_phrase": {
+            "rus": "Вы успешно подписались на рассылку!",
+            "eng": "You have successfully subscribed to the newsletter!",
+            "rus_err_sub": "Вы уже подписаны на рассылку.",
+            "eng_err_sub": "You have already subscribed to the newsletter.",
+            "error_rus": "При выполнении операции возникла ошибка. Начните операцию подписки заново через [наш сайт](https://bitexbook.com/ru/account/notice)",
+            "error_eng": "An error occurred while performing the operation. Start the subscription operation again through [our site](https://bitexbook.com/en/account/notice)",
+            "existing_user_rus": "Данный BITEXBOOK аккаунт уже привязан к пользователю ",
+            "existing_user_rus1": "Вы хотите обновить подписку на текущем telegram аккаунте?",
+            "existing_user_eng": "This BITEXBOOK account is already linked to the user ",
+            "existing_user_eng1": "Do you want to renew your subscription on your current telegram account?"
+        },
+        "unsubscribe_phrase": {
+            "rus": "Вы успешно отписаны от рассылки.",
+            "eng": "You have successfully unsubscribed from the mailing list.",
+            "rus_err_unsub": "Вы не были подписаны на рассылку.",
+            "eng_err_unsub": "You were not subscribed to the newsletter.",
+            "reped_sub_rus": "Начните операцию подписки заново через [наш сайт](https://bitexbook.com/ru/account/notice)",
+            "reped_sub_eng": "Start the subscription operation again through [our site](https://bitexbook.com/en/account/notice)"
+        }
+
+    },
+    "failure_phrase": {
+        "no_questions_asked": {
+            "rus": "Я не умею отвечать на вопросы. Если у Вас возник вопрос, обратитесь в [службу поддержки клиентов](https://bitexbook.com/ru/about/contacts)",
+            "eng": "I do not know how to answer questions. If you have any questions, please contact the [support serviсe clients](https://bitexbook.com/en/about/contacts) "
+        },
+        "incorrect_start": "You made an incorrect transition to the bot. In order for the bot to function correctly, make a transition through [our site](https://bitexbook.com/en/account/notice).\nВы совершили некорректный переход к боту. Чтобы бот мог корректно функционировать, совершите переход через [наш сайт](https://bitexbook.com/ru/account/notice).",
+        "upd_settings_err": {
+            "rus_err": "При выполнении операции возникла ошибка. Повторите вашу операцию.",
+            "eng_err": "An error occurred while performing the operation. Repeat your operation."
+        },
+        "not_user_lang_phrase": "You need to set the communication language.\n\nВам необходимо установить язык общения."
+    }
+  }
+}
